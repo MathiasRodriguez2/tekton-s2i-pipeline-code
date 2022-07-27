@@ -17,7 +17,7 @@ spec:
       containers:
         - image: quay.io/openshift-pipeline/vote-api:latest
           imagePullPolicy: Always
-          name: pipelines-vote-api
+          name: app-java
           ports:
             - containerPort: 9000
               protocol: TCP
